@@ -28,7 +28,7 @@ restService.post("/echo", function(req, res) {
         items: [
           {
             simpleResponse: {
-              textToSpeech: speech
+              textToSpeech: speech++" Мяу !!!!"
             }
           }
         ]
@@ -40,7 +40,7 @@ restService.post("/echo", function(req, res) {
     payload: speechResponse,
     //data: speechResponse,
     fulfillmentText: speech,
-    speech: speech+" Мяу !!!!",
+    speech: speech,
     displayText: speech,
     source: "teo4"
   });
