@@ -28,7 +28,7 @@ restService.post("/echo", function(req, res) {
         items: [
           {
             simpleResponse: {
-              textToSpeech: speech++" Мяу !!!!"
+              textToSpeech: speech+" Мяу"
             }
           }
         ]
